@@ -1,0 +1,51 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#map {
+    flex-grow: 1;
+    height: 100%;
+    width: 75%;
+}
+
+#control-panel {
+    width: 25%;
+    min-width: 300px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+}
+
+.control-group {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.control-group h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+button, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#api-status {
+    font-weight: bold;
+}
+
+#distance-output {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #0056b3;
+}
